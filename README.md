@@ -1,6 +1,6 @@
 ---
 name: no-slop
-description: "Detect and eliminate AI slop from any output before it ships. Covers writing tells, filler, buzzwords, code patterns, design cliches, hallucinations, and broken artifacts. Two modes: detect-only scorecard or detect + clean."
+description: "Detects and eliminates AI slop in text, code, and design before it ships. Flags writing tells, fake facts, code smells, and design cliches in a structured scorecard. Every finding needs an exact quote and the rule it breaks. Two modes - detect only or detect and clean."
 license: MIT
 metadata:
   author: amit123amit
