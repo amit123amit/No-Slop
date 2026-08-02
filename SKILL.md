@@ -1,9 +1,19 @@
 ---
 name: no-slop
-description: "Detects and eliminates AI slop in text, code, and design before it ships. Flags writing tells, fake facts, code smells, and design cliches in a structured scorecard. Every finding needs an exact quote and the rule it breaks. Two modes - detect only or detect and clean."
+description: >-
+  Quality gate for AI output across text, code, and design. Use when the user
+  says no slop, de-slop, slop check, clean this up, is this ready to send,
+  does this sound like AI, or review before I send. Also use when any output
+  feels generic, hollow, or AI-washed. Runs a structured scorecard flagging
+  writing tells, filler phrases, buzzwords, fake facts, code smells, design
+  cliches, placeholders, and broken artifacts. Every finding needs an exact
+  quote and the rule it breaks. Two modes - detect only produces a scorecard,
+  detect and clean produces a scorecard then rewrites. Default is detect only.
 license: MIT
+compatibility: Works with Claude, Claude Code, and any agent that supports SKILL.md
 metadata:
   author: amit123amit
+  version: "1.0"
 ---
 
 # No-Slop
