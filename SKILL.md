@@ -1,6 +1,9 @@
 ---
 name: no-slop
-description: Detect and eliminate AI slop from any output before it ships. Use when the user says "no slop", "de-slop", "slop check", "clean this up", "is this ready to send", "remove AI patterns", "does this sound like AI", "review before I send", or has produced any text, code, design, email, post, doc, proposal, or deck and wants it checked or cleaned. Also triggers when reviewing AI-generated content for quality, establishing writing standards, or when content feels generic, hollow, or AI-washed. Covers text (writing tells, filler, buzzwords, hedging), code (generic names, obvious comments, over-engineering), design (cookie-cutter layouts, generic gradients, copy slop), and factual/structural issues (hallucinations, placeholders, broken artifacts, consistency). Two modes: DETECT only (scorecard, no edits) or DETECT + CLEAN (scorecard then rewrite). Default is DETECT only unless the user asks to fix or clean.
+description: "Detects and eliminates AI slop in text, code, and design before it ships. Flags writing tells, fake facts, code smells, and design cliches in a structured scorecard. Every finding needs an exact quote and the rule it breaks. Two modes - detect only or detect and clean."
+license: MIT
+metadata:
+  author: amit123amit
 ---
 
 # No-Slop
