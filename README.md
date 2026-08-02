@@ -1,3 +1,13 @@
+---
+name: no-slop
+description: Detect and eliminate AI slop from any output before it ships. Covers writing tells, filler, buzzwords, code patterns, design clichés, hallucinations, and broken artifacts. Two modes: detect-only scorecard or detect + clean.
+license: MIT
+metadata:
+author: amit123amit
+---
+
+Two things to fix right no
+
 # no-slop
 
 > The quality gate for AI output. Run it on anything before it ships.
@@ -168,3 +178,5 @@ PRs welcome for:
 ## License
 
 MIT
+
+---
